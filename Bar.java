@@ -1,4 +1,4 @@
-package me.JayMar921.amongus;
+package me.Norbik1004.amongus;
 
 import org.bukkit.Bukkit;
 import org.bukkit.boss.BarColor;
