@@ -1,4 +1,4 @@
-package me.JayMar921.amongus;
+package me.Norbik1004.amongus;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -36,7 +36,7 @@ import org.bukkit.scoreboard.Score;
 import org.bukkit.scoreboard.Scoreboard;
 import org.bukkit.scoreboard.ScoreboardManager;
 
-import me.JayMar921.amongus.dataManager.dataManager;
+import me.Norbik1004.amongus.dataManager.dataManager;
 import net.md_5.bungee.api.ChatColor;
 
 
@@ -540,7 +540,7 @@ public class Main extends JavaPlugin implements Listener{
 	
 	public void help(Player player) {
 		player.sendMessage(ChatColor.GOLD +"=====================================================");
-		player.sendMessage(ChatColor.GOLD +"|                 [AMONG US PLUGIN BY JAYMAR921]                 | ");
+		player.sendMessage(ChatColor.GOLD +"|                 [AMONG US PLUGIN BY Norbik1004]                 | ");
 		player.sendMessage(ChatColor.GOLD +"=====================================================");
 		player.sendMessage(ChatColor.GOLD +"|  [HERE ARE THE COMMANDS]  ");
 		player.sendMessage(ChatColor.GOLD +"|  [EVERYONE]         ");
@@ -574,11 +574,11 @@ public class Main extends JavaPlugin implements Listener{
 		/*
 		player.sendMessage(ChatColor.GOLD +"| [CONFUSED?]                                                ");
 		player.sendMessage(ChatColor.GOLD +"| If you don't know how to use the plugin, feel free to watch");
-		player.sendMessage(ChatColor.GOLD +"| my tutorials at Youtube, check it on my channel: JayMar921 ");
+		player.sendMessage(ChatColor.GOLD +"| my tutorials at Youtube, check it on my channel:  ");
 		player.sendMessage(ChatColor.GOLD +"=====================================================");
 		player.sendMessage(ChatColor.GOLD +"| [ANY WEIRD STUFF BUGGIN'?]                                 ");
 		player.sendMessage(ChatColor.GOLD +"| This plugin is still on process, feel free to report any   ");
-		player.sendMessage(ChatColor.GOLD +"| issues at my discord JarMar#6153, I'll try to fix it when");
+		player.sendMessage(ChatColor.GOLD +"| issues at my discord, I'll try to fix it when");
 		player.sendMessage(ChatColor.GOLD +"| I am available");
 		player.sendMessage(ChatColor.GOLD +"=====================================================");
 		*/
@@ -587,7 +587,7 @@ public class Main extends JavaPlugin implements Listener{
 	public String loadMap() {
 		String status = "[AMONG US]: [MAP LOAD] -- ";
 		if(!this.data.getConfig().contains("Among us")) {
-			data.getConfig().set("Among us", "By JayMar921, this file is the data folder where the locations are loaded and saved (deleting this file will reset the map locations)");
+			data.getConfig().set("Among us", "By Norbik1004, this file is the data folder where the locations are loaded and saved (deleting this file will reset the map locations)");
 			data.saveConfig();
 		}
 		if(this.data.getConfig().contains("meeting1")) {
